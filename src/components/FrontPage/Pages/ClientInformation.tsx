@@ -5,7 +5,7 @@ import React from "react";
 const ClientInformation = () => {
   return (
     <div className="bg-[#141212]">
-      <div className="w-full container mx-auto md:px-0 px-8 ">
+      <div className="w-full container mx-auto md:px-0 px-8 py-24 ">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 container mx-auto">
           <div className="bg-white p-5 rounded-lg  lg:col-span-2">
             <div className="flex justify-start items-center md:flex-row flex-col  md:gap-12 gap-5 ">
@@ -17,7 +17,9 @@ const ClientInformation = () => {
                 alt="l"
               />
               <div className="">
-                <p className="text-3xl font-semibold">Nathan Drake</p>
+                <p className="text-3xl text-slate-800 font-semibold">
+                  Nathan Drake
+                </p>
                 <p className="my-4 text-[#464646]">
                   Lorem ipsum dolor sit amet
                 </p>
@@ -78,7 +80,7 @@ const ClientInformation = () => {
                 alt="lk"
               />
               <div>
-                <p className="text-lg font-bold ">Roland Beck</p>
+                <p className="text-lg font-bold text-slate-800">Roland Beck</p>
                 <p className="text-[#464646] ">Germany</p>
               </div>
               <p className=" text-slate-800">
@@ -118,7 +120,7 @@ const ClientInformation = () => {
                 alt="lk"
               />
               <div>
-                <p className="text-lg font-bold ">Roland Beck</p>
+                <p className="text-lg font-bold text-slate-800">Roland Beck</p>
                 <p className="text-[#464646] ">Germany</p>
               </div>
               <p className="text-[#464646]">
@@ -158,7 +160,9 @@ const ClientInformation = () => {
                 alt="lk"
               />
               <div>
-                <p className="text-lg font-bold mt-3">Roland Beck</p>
+                <p className="text-lg font-bold mt-3 text-slate-800">
+                  Roland Beck
+                </p>
                 <p className="text-[#464646] ">Germany</p>
               </div>
               <p className="text-[#464646]">
@@ -198,7 +202,7 @@ const ClientInformation = () => {
                 alt="lk"
               />
               <div>
-                <p className="text-lg font-bold ">Roland Beck</p>
+                <p className="text-lg font-bold text-slate-800">Roland Beck</p>
                 <p className="text-[#464646]">Germany</p>
               </div>
               <p className="text-[#464646]">

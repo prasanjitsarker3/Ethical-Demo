@@ -6,10 +6,10 @@ import { Providers } from "@/components/Provider/Provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NORTHWAY",
-  description: "NORTHWAY",
+  title: "DEMO",
+  description: "DEMO",
   icons: {
-    icon: "https://cdn-icons-png.flaticon.com/128/2995/2995455.png",
+    icon: "https://cdn-icons-png.flaticon.com/128/5110/5110630.png",
   },
 };
 
